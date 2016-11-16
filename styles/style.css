@@ -1,0 +1,248 @@
+body {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #3c3c3c;
+}
+
+.ba-container {
+    max-width: 900px;
+}
+
+/*Header styles*/
+
+.ba-header {
+ background: url(../images/hero-bg.jpg) 0 0 no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 285px 0 115px;
+}
+
+
+.ba-section-title {
+    position: relative;
+    text-transform: uppercase;
+    font-size: 34px;
+}
+
+.ba-section-title:before,
+.ba-section-title:after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 240px;
+    background-color: #3c3c3c;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.ba-section-title:before {
+    left: 0;
+}
+
+.ba-section-title:after {
+    right: 0;
+}
+
+.ba-section-content {
+    padding-top: 80px;
+    padding-left: 180px;
+    padding-right: 180px;
+    padding-bottom: 50px;
+    border-bottom: 2px solid #3c3c3c;
+    border-left: 2px solid #3c3c3c;
+    border-right: 2px solid #3c3c3c;
+    position: relative;
+    top: -48px;
+}
+
+.ba-section-mt {
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+.ba-services {
+    background: url(../images/services.jpg) 0 0 no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 113px 0 113px;
+}
+
+.ba-text-fs {
+    font-size: 16px;
+}
+
+.ba-section-title2 {
+    position: relative;
+    text-transform: uppercase;
+    font-size: 34px;
+}
+
+.ba-section-title2:before,
+.ba-section-title2:after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 240px;
+    background-color: #fff;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.ba-section-title2:before {
+    left: 0;
+}
+
+.ba-section-title2:after {
+    right: 0;
+}
+
+.ba-section-content2 {
+    padding-top: 80px;
+    padding-left: 180px;
+    padding-right: 180px;
+    padding-bottom: 50px;
+    border-bottom: 2px solid #fff;
+    border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
+    position: relative;
+    top: -48px;
+}
+
+article {
+    padding-top: 115px;
+}
+
+.ba-article-title {
+    text-transform: uppercase;
+}
+
+.ba-article-h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+}
+
+.ba-article-design {
+    padding-top: 110px;
+    padding-left: 170px;
+    padding-right: 170px;
+    border-left: 2px solid #3c3c3c;
+    border-right: 2px solid #3c3c3c;
+    position: relative;
+    top: -48px;
+}
+
+.ba-article-development {
+    padding-top: 110px;
+    padding-left: 170px;
+    padding-right: 170px;
+    border-left: 2px solid #3c3c3c;
+    border-right: 2px solid #3c3c3c;
+    position: relative;
+    top: -65px;
+}
+
+.ba-article-product {
+    padding-top: 110px;
+    padding-left: 170px;
+    padding-right: 170px;
+    padding-bottom: 90px;
+    border-bottom: 2px solid #3c3c3c;
+    border-left: 2px solid #3c3c3c;
+    border-right: 2px solid #3c3c3c;
+    position: relative;
+    top: -82px;
+}
+
+.ba-container2 {
+    max-width: 1920px;
+    font-size: 0;
+}
+
+.ba-pic {
+    padding-left: 0;
+}
+
+
+.ba-pic-ww {
+    display: inline-block;
+    max-width: 28.64%;
+    height: 240px;
+}
+
+.ba-pic-w {
+    display: inline-block;
+    max-width: 41.66%;
+    height: 240px;
+}
+
+.ba-text-p {
+    padding-left: 190px;
+    padding-right: 190px;
+}
+
+.ba-button {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    width: 400px;
+    background-color: #3c3c3c;
+    color: #fff;
+    text-transform: uppercase;
+    height: 60px;
+    outline: none;
+    border: none;
+}
+
+.ba-section-title4 {
+    position: relative;
+    text-transform: uppercase;
+    font-size: 34px;
+}
+
+.ba-section-title4:before,
+.ba-section-title4:after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 240px;
+    background-color: #3c3c3c;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.ba-section-title4:before {
+    left: 0;
+}
+
+.ba-section-title4:after {
+    right: 0;
+}
+
+.ba-section-content4 {
+    padding-top: 80px;
+    padding-left: 190px;
+    padding-right: 190px;
+    border-bottom: 2px solid #3c3c3c;
+    border-left: 2px solid #3c3c3c;
+    border-right: 2px solid #3c3c3c;
+    position: relative;
+    top: -48px;
+}
+
+.ba-contact {
+    margin-top: 130px;
+}
+
+.ba-logo2 {
+    float: left;
+    margin-left: 300px;
+}
+
+.ba-foot {
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
